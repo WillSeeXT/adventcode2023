@@ -18,3 +18,13 @@ First time, same logic but check word and replace them in the string and redo pa
 No problem thinking of the logic, main problem was still doing it in rust. I think it could have been done better using regex.
 
 Need to start using more function and use Cargo !
+
+## Day 3
+Used cargo to create the project and learn to add dependencies.
+Tried to create more function to make the code more readable.
+Code surely could need a clean.
+### Part 1
+Started by getting each number on each line and saving there starting position in the line.
+Then check around each number to look for none digit symbol. The real difficulty was still getting used to rust.
+### Part 2
+I had to rethink my design for part 2. I decided to look for '*' and save each position. Then check for each position on the line id there was number on each side then upper and lower line. When a number was found it was saved then multiplied and sum. Again, rust was my main problem and not the logic.
