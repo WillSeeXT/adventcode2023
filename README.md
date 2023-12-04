@@ -28,3 +28,11 @@ Started by getting each number on each line and saving there starting position i
 Then check around each number to look for none digit symbol. The real difficulty was still getting used to rust.
 ### Part 2
 I had to rethink my design for part 2. I decided to look for '*' and save each position. Then check for each position on the line id there was number on each side then upper and lower line. When a number was found it was saved then multiplied and sum. Again, rust was my main problem and not the logic.
+
+## Day 4
+### Part 1
+Puzzle was quite easy. Used a single regex to get all information : Card id, winning numbers and card numbers.
+Add to chenge my regex to take into account double whitespace.
+### Part 2
+Thanks to all the nice information I had from pervious part, part 2 seemed easy. My idea was working but I had major problem implementing if because of my lack of knowledge of rust. I learned A LOT on mutability, ownership, Borrowing in loop. My idea work at the end but it took me a long time to make it work in rust.
+Pretty sure there is a rustier way to do it.
