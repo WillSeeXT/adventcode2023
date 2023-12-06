@@ -34,5 +34,5 @@ I had to rethink my design for part 2. I decided to look for '*' and save each p
 Puzzle was quite easy. Used a single regex to get all information : Card id, winning numbers and card numbers.
 Add to chenge my regex to take into account double whitespace.
 ### Part 2
-Thanks to all the nice information I had from pervious part, part 2 seemed easy. My idea was working but I had major problem implementing if because of my lack of knowledge of rust. I learned A LOT on mutability, ownership, Borrowing in loop. My idea work at the end but it took me a long time to make it work in rust.
+Thanks to all the nice information I had from pervious part, part 2 seemed easy. My idea was working but I had major problem implementing it because of my lack of knowledge of rust. I learned A LOT on mutability, ownership, Borrowing in loop. My idea work at the end but it took me a long time to make it work in rust.
 Pretty sure there is a rustier way to do it.
