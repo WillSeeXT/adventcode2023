@@ -36,3 +36,9 @@ Add to chenge my regex to take into account double whitespace.
 ### Part 2
 Thanks to all the nice information I had from pervious part, part 2 seemed easy. My idea was working but I had major problem implementing it because of my lack of knowledge of rust. I learned A LOT on mutability, ownership, Borrowing in loop. My idea work at the end but it took me a long time to make it work in rust.
 Pretty sure there is a rustier way to do it.
+
+## Day 5
+### Part 1
+No real trouble here, I parsed all maps to vectors. TO get the position, I checked the range then if in range, calculate the output then cascade the output to the next map.
+### Part 2
+Logic was quite easy, concern was in the computing time. Manage to do it in 21min. Probably could be cut down using threads.
