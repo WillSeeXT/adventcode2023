@@ -42,3 +42,7 @@ Pretty sure there is a rustier way to do it.
 No real trouble here, I parsed all maps to vectors. TO get the position, I checked the range then if in range, calculate the output then cascade the output to the next map.
 ### Part 2
 Logic was quite easy, concern was in the computing time. Manage to do it in 21min. Probably could be cut down using threads.
+
+## Day 6
+### Part 1 && 2
+No real trouble here.
