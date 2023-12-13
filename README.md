@@ -53,3 +53,8 @@ Overall code could be leaner and cleaner but it works well !
 Fiou! Got some usual difficulties with rust. Still not getting all the ownership and borrowing. So after getting the numeric values of all the cards in hand and the bet, I managed to sort them by type of hand (high card, pair, etc). After I could sort them depending on the cards position and values. I knew there were a mathematical way of doing it by giving a kind of weight to each hand. Last few days were quite busy and my brain was not there :P. Was trying to do it with loops... but finnaly got it... it was pretty simple: Give a weight to each card position and multiply it by the card values and add it. W = C1 * 10⁸ + C2 * 10⁶ + C3 * 10⁴ + C4 * 10² + C5 * 10⁰. Then sort the hands by weight. Learned hashmaps are nice!
 ## Part 2
 With my approach for part1, part2 was quite easy. Simply sort like part1 all the hands with no joker. Make special sort for joker hands and give joker a value of 0 so they do not influence de weight. Done deal...
+
+## Day 8
+### Part 1 && 2
+We don't talk about day 8.... carry on , carry on...
+Trick for the seconde part was the lower common multiple.
